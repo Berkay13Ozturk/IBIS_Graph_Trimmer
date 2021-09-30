@@ -3,7 +3,7 @@ IBIS (I/O Buffer Information Specification) graph trimming script, written in MA
 
 Often, the IBIS file provides a stationary waveform on either ends of the rising and/or falling waveforms. This part is mostly unnecessary since it provides no useful information on the slope of the waveform.
 
-If the simulation requires a higher frequency than the IBIS file provides, it can lead to buffer overflows. Either a rising IBIS trigger happens in the middle of a falling transition or vice versa. This usually is being treated as an overclocking issue by the EDS environment.
+If the simulation requires a higher frequency than the IBIS file provides, it can lead to buffer overflows. Either a rising IBIS trigger happens in the middle of a falling transition or vice versa. This usually is being treated as an overclocking issue by the EDA environment.
 
 This can further lead to false positive overshoot, undershoot and/or ringing issues. To overcome this issue, I have designed a script in MATLAB. It allows the following to be done on the IBIS model:
 
@@ -20,7 +20,7 @@ This can further lead to false positive overshoot, undershoot and/or ringing iss
 
 By default, the application processes the 2 rising and 2 falling waveforms given in the IBIS model. One waveform is where the V_fixture is equal to 0 and the other waveform is where the V_fixture is equal to Vcc. So, in total 4 waveforms are processed. Manual or automatic trimming can be selected and given as an input parameter to the function.
 
-Application provides the user a selection of 1-D data interpolation methods. This gives the EDS tools a better data, with better precision. The data sample size can be modified, default is 1000. User can use the following as the interpolation method: 
+Application provides the user a selection of 1-D data interpolation methods. This gives the EDA tools a better data, with better precision. The data sample size can be modified, default is 1000. User can use the following as the interpolation method: 
   'linear'
   'nearest'
   'next'
