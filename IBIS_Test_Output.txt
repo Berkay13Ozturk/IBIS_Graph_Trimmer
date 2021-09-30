@@ -1,0 +1,78 @@
+
+********** WAVEFORM [1] START **********
+
+_____Buffer Overclock Test_____
+MINIMUM:
+	Trimming successfull for Rising Waveform !
+		Maximum allowed width[pos/neg] is:	[0.00150602409638554220	s]
+		Current width[pos/neg] is:			[0.00000000149600000000	s]
+_____Buffer Overclock Test_____
+MINIMUM:
+	Trimming successfull for Falling Waveform !
+		Maximum allowed width[pos/neg] is:	[0.00150602409638554220	s]
+		Current width[pos/neg] is:			[0.00000000134410000000	s]
+_____Buffer Overclock Test_____
+TYPICAL:
+	Trimming successfull for Rising Waveform !
+		Maximum allowed width[pos/neg] is:	[0.00150602409638554220	s]
+		Current width[pos/neg] is:			[0.00000000149850000000	s]
+_____Buffer Overclock Test_____
+TYPICAL:
+	Trimming successfull for Falling Waveform !
+		Maximum allowed width[pos/neg] is:	[0.00150602409638554220	s]
+		Current width[pos/neg] is:			[0.00000000151500000000	s]
+_____Buffer Overclock Test_____
+MAXIMUM:
+	Trimming successfull for Rising Waveform !
+		Maximum allowed width[pos/neg] is:	[0.00150602409638554220	s]
+		Current width[pos/neg] is:			[0.00000000148570000000	s]
+_____Buffer Overclock Test_____
+MAXIMUM:
+	Trimming successfull for Falling Waveform !
+		Maximum allowed width[pos/neg] is:	[0.00150602409638554220	s]
+		Current width[pos/neg] is:			[0.00000000149380000000	s]
+
+_____TIME DIFFERENCE(Rising - Falling Waveform)_____
+	MINIMUM: [-0.00000000054810000000	s]	Rising waveform needs the delay for correlation !
+	TYPICAL: [0.00000000009040000000	s]	Falling waveform needs the delay for correlation !
+	MAXIMUM: [0.00000000020290000000	s]	Falling waveform needs the delay for correlation !
+********** WAVEFORM [1] END **********
+
+********** WAVEFORM [2] START **********
+
+_____Buffer Overclock Test_____
+MINIMUM:
+	Trimming successfull for Rising Waveform !
+		Maximum allowed width[pos/neg] is:	[0.00150602409638554220	s]
+		Current width[pos/neg] is:			[0.00000000145820000000	s]
+_____Buffer Overclock Test_____
+MINIMUM:
+	Trimming successfull for Falling Waveform !
+		Maximum allowed width[pos/neg] is:	[0.00150602409638554220	s]
+		Current width[pos/neg] is:			[0.00000000068400000000	s]
+_____Buffer Overclock Test_____
+TYPICAL:
+	Trimming successfull for Rising Waveform !
+		Maximum allowed width[pos/neg] is:	[0.00150602409638554220	s]
+		Current width[pos/neg] is:			[0.00000000150190000000	s]
+_____Buffer Overclock Test_____
+TYPICAL:
+	Trimming successfull for Falling Waveform !
+		Maximum allowed width[pos/neg] is:	[0.00150602409638554220	s]
+		Current width[pos/neg] is:			[0.00000000149060000000	s]
+_____Buffer Overclock Test_____
+MAXIMUM:
+	Trimming successfull for Rising Waveform !
+		Maximum allowed width[pos/neg] is:	[0.00150602409638554220	s]
+		Current width[pos/neg] is:			[0.00000000150420000000	s]
+_____Buffer Overclock Test_____
+MAXIMUM:
+	Trimming successfull for Falling Waveform !
+		Maximum allowed width[pos/neg] is:	[0.00150602409638554220	s]
+		Current width[pos/neg] is:			[0.00000000148960000000	s]
+
+_____TIME DIFFERENCE(Rising - Falling Waveform)_____
+	MINIMUM: [-0.00000000279220000000	s]	Rising waveform needs the delay for correlation !
+	TYPICAL: [-0.00000000144050000000	s]	Rising waveform needs the delay for correlation !
+	MAXIMUM: [-0.00000000085440000000	s]	Rising waveform needs the delay for correlation !
+********** WAVEFORM [2] END **********
